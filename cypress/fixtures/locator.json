@@ -1,0 +1,42 @@
+{
+    "login": {
+        "email":"input[name='email']",
+        "password":"input[name='password']",
+        "login_button": "button[type='submit']"
+    },
+    
+    "header":{
+        "login":"a[href='/login']",
+        "logout":"a[href='#']",
+        "register":"a[href='/register']",
+        "create_new_gradebook":"a[href='/create-gradebook']",
+        "professors":{
+            "dropdown":"#navbardrop",
+            "create_professor":"a[href='/create-professor']"
+        }
+    },
+
+    "register":{
+        "frist_name":"#firstName",
+        "last_name":"#lastName",
+        "password":"#password",
+        "confirmPassword": "#passwordConfirmation",
+        "email": "#email",
+        "checkboxTerms": "#termsAndConditions",
+        "buttonSubmit": "button[type='submit']"
+    },
+
+    "create_new_gradebook": {
+        "title": "#title",
+        "professor": "#professor",
+        "buttonSubmit": ".btn"
+    },
+
+    "create_new_professor": {
+        "firstName": "#firstName",
+        "lastName": "#lastName",
+        "addImageButton": ".btn-sm",
+        "addImageInput": "input[placeholder='Image URL']",
+        "buttonSubmit": "button[type='submit']"
+    }
+}
